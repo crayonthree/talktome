@@ -6,22 +6,30 @@ talktome is a chatbot built from scratch to explore Conversational AI, and Machi
 
 ## Latest Version
 ### v1 - Rule-Based Chatbot
-Current focus:
-- Basic conversation loop
-- Short-term memory
-- Modular code structure
+Current features:
+- Rule-based conversational responses
+- Short-term conversational memory
+- Memory recall
+- Modular response generation
+- Session-based conversation logging
 
 ## Version Timeline
 
-### v1 (2026) - Rule-Based Chatbot *(In Progress)*
-- Basic conversation
-- Short-term memory
-- Response generation module
+### v1 (2026) - Rule-Based Chatbot *(Complete)*
+- Rule-based conversational chatbot
+- Short-term conversational memory
+- Memory recall
+- Modular response generation
+- Session-based conversation logging
+- Refactored into a modular architecture
 
 ### v2 - ML Chatbot *(Planned)*
-- ML-based responses
+- Machine learning-based responses
+- Intent recognition
+- Smarter conversational behaviour
 
 ### v3 - Long-Term Memory *(Planned)*
+- Persistent user memory
 
 ### v4 - Modular AI Assistant *(Planned)*
 
@@ -31,9 +39,10 @@ The long-term goal is to build a modular AI assistant inspired by Jarvis from th
 The final goal is to find harmony in all these components, and make one godly assistant. Each version focuses on solving one problem at a time. Starting with a conversational chatbot.
 
 ## Tech Stack
-(As of v1)
+
 ### Programming Languages
 - Pyhon
+
 ### Tools
 - GitHub
 
