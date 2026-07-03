@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated logs
+v1/logs/*
+!v1/logs/.gitkeep
