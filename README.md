@@ -5,13 +5,11 @@ A chatbot built from scratch with the long-term goal of becoming a modular AI as
 talktome is a chatbot built from scratch to explore Conversational AI, and Machine Learning. Each version introduces new capabilities and improvements.
 
 ## Latest Version
-### v1 - Rule-Based Chatbot
-Current features:
-- Rule-based conversational responses
-- Short-term conversational memory
-- Memory recall
-- Modular response generation
-- Session-based conversation logging
+### v2 - ML Chatbot
+- Natural language processing for response generation
+- Intent recognition
+- Flexible phrase matching
+- Improved conversational understanding
 
 ## Version Timeline
 
@@ -23,13 +21,16 @@ Current features:
 - Session-based conversation logging
 - Refactored into a modular architecture
 
-### v2 - ML Chatbot *(Planned)*
-- Machine learning-based responses
+### v2 - ML Chatbot *(In-Progress)*
+- Natural language processing for response generation
 - Intent recognition
-- Smarter conversational behaviour
+- Flexible phrase matching
+- Improved conversational understanding
 
 ### v3 - Long-Term Memory *(Planned)*
-- Persistent user memory
+- Machine learning-based response generation
+- Response classification
+- Model training and evaluation
 
 ### v4 - Modular AI Assistant *(Planned)*
 

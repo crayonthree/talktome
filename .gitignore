@@ -5,3 +5,5 @@ __pycache__/
 # Generated logs
 v1/logs/*
 !v1/logs/.gitkeep
+v2/logs/*
+!v2/logs/.gitkeep
