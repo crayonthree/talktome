@@ -6,3 +6,12 @@
 - maketrans(x,y,z) is overloaded. Table links x and y characters with each other, and z characters with None.
 - This translation table is used by translate() function.
 - message.translate(table) applies the translation table to the string and returns the translated result.
+
+2. Stemming/Lemmatization
+- Cleaning up prefixes and suffixes to get root words.
+- Lemmatization uses dictionary/language knowledge to cut extentions of words.
+- Stemming applies simple rules, sometimes root words are created which dont exist.
+Step 1 (Stemming)
+    - Primary Implementation using nltk, to use porter stemmer.
+    - Porter Stemmer to remove suffixes in a reasonable way e.g. running -> run, not runn (removing ing)
+Step 2 (Lemmatization)

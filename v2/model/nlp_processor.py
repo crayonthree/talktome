@@ -1,6 +1,9 @@
 # Natural Language Processing helpers #
 
 import string
+import nltk
+from nltk.stem import PorterStemmer
+
 
 # Normalizing text
 def normalize_text(message):
@@ -22,19 +25,32 @@ def normalize_text(message):
 def tokenization(message):
 
     # Tokenize on whitespaces
-    tokens = message.split()
+    words = message.split()
 
-    return tokens
+    return words
 
-def stop_word_removal(tokens, stop_word_list):
+
+# Removing common insignificant words
+def stop_word_removal(words, stop_word_list):
 
     # Preprocessed Text
-    cleanedText = []
+    cleaned_words = []
 
     # Loop through all token and remove the stop words
-    for token in tokens:
-        if token not in stop_word_list:
-            cleanedText.append(token)
+    for word in words:
+        if word not in stop_word_list:
+            cleaned_words.append(word)
 
-    return cleanedText
+    return cleaned_words
+
+
+# Stemming (removing word extensions)
+def stemming(words):
+
+    # Create a Porter Stemmer instance
+    porter_stemmer = PorterStemmer()
+
+    #Stemmed words after looping through all words and stemming
+    root_words = [porter_stemmer.stem(word) for word in words]
     
+    return root_words
