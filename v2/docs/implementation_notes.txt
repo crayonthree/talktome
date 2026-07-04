@@ -1,0 +1,8 @@
+1. String Manipulation + Normalization
+    table = str.maketrans('', '', string.punctuation)
+    message = message.translate(table)
+- Creates a dictionary linking the unicode values of string.punctuation (all punctuation characters) to None.
+- maketrans(x,y) means translation table created linking characters of x with y. Both x and y should have the same character number.
+- maketrans(x,y,z) is overloaded. Table links x and y characters with each other, and z characters with None.
+- This translation table is used by translate() function.
+- message.translate(table) applies the translation table to the string and returns the translated result.

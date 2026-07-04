@@ -1,7 +1,9 @@
 ## Simple chatbot program ##
 
-import response_generation as rg
-import logs
+from model import response_generation as rg
+from model import logs
+from model import nlp_processor
+from data.stop_words import STOP_WORDS
 
 def main():
 

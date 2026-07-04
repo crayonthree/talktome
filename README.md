@@ -21,16 +21,18 @@ talktome is a chatbot built from scratch to explore Conversational AI, and Machi
 - Session-based conversation logging
 - Refactored into a modular architecture
 
-### v2 - ML Chatbot *(In-Progress)*
+### v2 - NLP Chatbot *(In-Progress)*
 - Natural language processing for response generation
 - Intent recognition
 - Flexible phrase matching
 - Improved conversational understanding
 
-### v3 - Long-Term Memory *(Planned)*
+### v3 - ML Chatbot *(Planned)*
 - Machine learning-based response generation
 - Response classification
 - Model training and evaluation
+
+### v4 - Long-Term Memory *(Planned)*
 
 ### v4 - Modular AI Assistant *(Planned)*
 
