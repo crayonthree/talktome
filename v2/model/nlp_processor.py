@@ -100,4 +100,4 @@ def nlp_processor(sentence, STOP_WORDS, intents):
     stemmedWords = stemming(stop_word_removed_sentence)
     intent = intent_recognition(stemmedWords, intents)
 
-    print(intent)
+    return intent

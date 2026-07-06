@@ -32,7 +32,8 @@ def main():
         chatbot_reply = ""
         topic = ""
 
-        response = rg.generate_custom_response(stm,user_input)
+        intent = nlp_processor.nlp_processor(user_input,STOP_WORDS,intents)
+        response = rg.generate_custom_response(stm,user_input,intent)
 
         if response is None:
             print("Chatbot: " + f"Goodbye, {stm['name']}!")

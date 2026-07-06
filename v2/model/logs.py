@@ -5,7 +5,7 @@ def generate_log_file():
 
     # Generating the file path
     date_time = datetime.now().strftime("%Y_%m_%d-%H_%M_%S")
-    log_file_path = f"v22/logs/ConversationLog{date_time}"
+    log_file_path = f"v2/logs/ConversationLog{date_time}"
 
     # Creating the file and adding initial text
     log_file = open(log_file_path,"x")
