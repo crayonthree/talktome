@@ -5,9 +5,12 @@ A chatbot built from scratch with the long-term goal of becoming a modular AI as
 talktome is a chatbot built from scratch to explore Conversational AI, and Machine Learning. Each version introduces new capabilities and improvements.
 
 ## Latest Version
-### v2 - ML Chatbot
-- Natural language processing for response generation
-- Intent recognition
+### v2 - NLP Chatbot
+- Natural language processing (NLP) pipeline
+- Text normalization and tokenization
+- Stop-word removal and stemming
+- Data-driven intent recognition
+- Intent-based response generation
 - Flexible phrase matching
 - Improved conversational understanding
 
@@ -21,20 +24,24 @@ talktome is a chatbot built from scratch to explore Conversational AI, and Machi
 - Session-based conversation logging
 - Refactored into a modular architecture
 
-### v2 - NLP Chatbot *(In-Progress)*
-- Natural language processing for response generation
-- Intent recognition
+### v2 - NLP Chatbot *(Complete)*
+- Natural language processing (NLP) pipeline
+- Text normalization and tokenization
+- Stop-word removal and stemming
+- Data-driven intent recognition
+- Intent-based response generation
 - Flexible phrase matching
 - Improved conversational understanding
 
 ### v3 - ML Chatbot *(Planned)*
 - Machine learning-based response generation
-- Response classification
-- Model training and evaluation
+- Trained conversational response model
+- Dataset creation, training, and evaluation
 
 ### v4 - Long-Term Memory *(Planned)*
+- Individual User Memory and Recognition
 
-### v4 - Modular AI Assistant *(Planned)*
+### v5 - Modular AI Assistant *(Planned)*
 
 ## Long-Term Vision
 The long-term goal is to build a modular AI assistant inspired by Jarvis from the Iron Man series. Rather than building one standalone chatbot, this project aims to slowly build surrounding modules (long term memory, reasoning, etc.) and combine them with capabilities (navigation, weather, orders, etc.) built from scratch. 
@@ -44,7 +51,7 @@ The final goal is to find harmony in all these components, and make one godly as
 ## Tech Stack
 
 ### Programming Languages
-- Pyhon
+- Python
 
 ### Tools
 - GitHub
