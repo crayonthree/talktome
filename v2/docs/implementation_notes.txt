@@ -15,3 +15,8 @@ Step 1 (Stemming)
     - Primary Implementation using nltk, to use porter stemmer.
     - Porter Stemmer to remove suffixes in a reasonable way e.g. running -> run, not runn (removing ing)
 Step 2 (Lemmatization)
+
+3. Element empty checks
+- not dictionary: can help check empty dictionaries.
+- {} is considered false (and empty), {elements} is considered true. So not dictionary and dictionary work.
+- bool(dictionary) works as a check too!
