@@ -1,0 +1,22 @@
+1. String Manipulation + Normalization
+    table = str.maketrans('', '', string.punctuation)
+    message = message.translate(table)
+- Creates a dictionary linking the unicode values of string.punctuation (all punctuation characters) to None.
+- maketrans(x,y) means translation table created linking characters of x with y. Both x and y should have the same character number.
+- maketrans(x,y,z) is overloaded. Table links x and y characters with each other, and z characters with None.
+- This translation table is used by translate() function.
+- message.translate(table) applies the translation table to the string and returns the translated result.
+
+2. Stemming/Lemmatization
+- Cleaning up prefixes and suffixes to get root words.
+- Lemmatization uses dictionary/language knowledge to cut extentions of words.
+- Stemming applies simple rules, sometimes root words are created which dont exist.
+Step 1 (Stemming)
+    - Primary Implementation using nltk, to use porter stemmer.
+    - Porter Stemmer to remove suffixes in a reasonable way e.g. running -> run, not runn (removing ing)
+Step 2 (Lemmatization)
+
+3. Element empty checks
+- not dictionary: can help check empty dictionaries.
+- {} is considered false (and empty), {elements} is considered true. So not dictionary and dictionary work.
+- bool(dictionary) works as a check too!

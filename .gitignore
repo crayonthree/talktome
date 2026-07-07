@@ -7,3 +7,5 @@ v1/logs/*
 !v1/logs/.gitkeep
 v2/logs/*
 !v2/logs/.gitkeep
+v3/logs/*
+!v3/logs/.gitkeep
